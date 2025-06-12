@@ -1,0 +1,11 @@
+# Permitir acesso ao postback.php
+<Files "postback.php">
+    Order allow,deny
+    Allow from all
+</Files>
+
+# Proteger logs
+<Files "*.log">
+    Order deny,allow
+    Deny from all
+</Files>
